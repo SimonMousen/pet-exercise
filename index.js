@@ -12,5 +12,13 @@ function getPetExerciseInfo(mascota, edad) {
         } else {
             return 'Los perros viejos necesitan caminatas mas cortas.';
         }
+    } else if (tipoMascota === 'gato') {
+        if (edad < 1) {
+            return 'Los gatitos necesitan frecuentes sesiones de juego.';
+        } else if (edad >= 1 && edad <= 7) {
+            return 'Los gatos a esta edad neesitan jugar diariamente.';
+        } else {
+            return 'Los gatos viejos necesitan sesiones de juego mas cortas.'
+        }
     }
 }

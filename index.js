@@ -28,5 +28,11 @@ function getPetExerciseInfo(mascota, edad) {
         } else {
             return 'Las aves mayores necesitan descansar mas, pero siguen ocupando un lugar para volar.'
         }
+    } else {
+        return 'Tipo de mascota invalida';
     }
 }
+
+console.log(getPetExerciseInfo('perro', 3))
+console.log(getPetExerciseInfo('ave', 8))
+console.log(getPetExerciseInfo('gato', 0.5))

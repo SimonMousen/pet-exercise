@@ -36,3 +36,6 @@ function getPetExerciseInfo(mascota, edad) {
 console.log(getPetExerciseInfo('perro', 3))
 console.log(getPetExerciseInfo('ave', 8))
 console.log(getPetExerciseInfo('gato', 0.5))
+
+console.log(getPetExerciseInfo('elefante', 4))
+console.log(getPetExerciseInfo('', 1))
